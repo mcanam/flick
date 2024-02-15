@@ -1,0 +1,4 @@
+<button class="button" [ngClass]="{ 'icon-button': type == 'icon' }">
+      <i-feather *ngIf="icon" [name]="icon" class="button-icon"></i-feather>
+      <ng-content *ngIf="type == 'normal'"></ng-content>
+</button>

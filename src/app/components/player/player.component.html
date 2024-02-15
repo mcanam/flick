@@ -1,0 +1,27 @@
+<div class="player">
+      <video #video class="player-display" src="../../../assets/video/test.mp4"></video>
+
+      <div class="player-control">
+            <app-slider class="player-control-slider" [min]="0" [max]="duration" [value]="currentTime" ($slide)="onTimeSlide()" ($slideEnd)="onTimeSlideEnd($event)"></app-slider>
+
+            <div class="player-control-wrapper">
+                  <app-button type="icon" [icon]="isPlaying ? 'pause' : 'play'" (click)="onPlayPause()"></app-button>
+
+                  <div class="player-control-time">
+                        <span>{{ formatTime(currentTime) }}</span>
+                        <span>&nbsp;/&nbsp;</span>
+                        <span>{{ formatTime(duration) }}</span>
+                  </div>
+
+                  <div class="player-control-spacer"></div>
+            
+                  <div class="player-control-volume">
+                        <app-button type="icon" [icon]="isMuted || volume == 0 ? 'volume-x' : volume < 0.5 ? 'volume-1' : 'volume-2'" (click)="onVolume()"></app-button>
+                        <app-slider class="player-control-volume-slider" [min]="0" [max]="1" [step]="0.1" [value]="isMuted ? 0 : volume" ($slide)="onVolumeSlide($event)"></app-slider>
+                  </div>
+
+                  <app-button type="icon" icon="settings"></app-button>
+                  <app-button type="icon" [icon]="isFullscreen ? 'minimize' : 'maximize'" (click)="onFullscreen()"></app-button>
+            </div>
+      </div>
+</div>

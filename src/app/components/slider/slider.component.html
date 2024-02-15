@@ -1,0 +1,4 @@
+<div class="slider">
+      <div class="slider-fill" [ngStyle]="{ width: fillWidth }"></div>
+      <input class="slider-input" type="range" #input [min]="min" [max]="max" [step]="step" [value]="localValue" (input)="onInput(input.value)" (change)="onChange()">
+</div>

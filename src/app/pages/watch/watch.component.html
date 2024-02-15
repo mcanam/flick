@@ -1,0 +1,12 @@
+<div class="container" (mousemove)="onMouseMove()">
+      <header class="header" [ngClass]="{ hide: !isHeaderVisible }">
+            <app-button icon="arrow-left" (click)="onBack()">Back to home</app-button>
+      </header>
+
+      <div class="loader" *ngIf="isLoading">
+            <app-loader></app-loader>
+      </div>
+
+      <!-- i will replace it with a custom player in the future. -->
+      <video #video class="player" controls></video>
+</div>

@@ -1,0 +1,7 @@
+<div class="search">
+      <i-feather class="search-icon" name="search"></i-feather>
+      <input class="search-input" type="text" placeholder="Search movie..." [formControl]="form">
+      <button class="search-reset" *ngIf="form.value" (click)="form.setValue('')">
+            <i-feather name="x"></i-feather>
+      </button>
+</div>

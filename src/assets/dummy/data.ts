@@ -1,0 +1,122 @@
+export const dummyData = [
+      {
+            "id": 933131,
+            "cover": "/zVMyvNowgbsBAL6O6esWfRpAcOb.jpg",
+            "releaseDate": "2024-01-26",
+            "title": "Badland Hunters",
+      },
+      {
+            "id": 1212073,
+            "cover": "/aajCqg315CoJPu1NmgPCkbRjnl6.jpg",
+            "releaseDate": "2024-01-19",
+            "title": "Sixty Minutes",
+      },
+      {
+            "id": 787699,
+            "cover": "/qhb1qOilapbapxWQn9jtRCMwXJF.jpg",
+            "releaseDate": "2023-12-06",
+            "title": "Wonka",
+      },
+      {
+            "id": 1214314,
+            "cover": "/nQ1BQg4yMdlYSHvHZgwladzy7EF.jpg",
+            "releaseDate": "2024-01-12",
+            "title": "One More Shot",
+      },
+      {
+            "id": 609681,
+            "cover": "/9GBhzXMFjgcZ3FdR9w3bUMMTps5.jpg",
+            "releaseDate": "2023-11-08",
+            "title": "The Marvels",
+      },
+      {
+            "id": 955916,
+            "cover": "/gma8o1jWa6m0K1iJ9TzHIiFyTtI.jpg",
+            "releaseDate": "2024-01-10",
+            "title": "Lift",
+      },
+      {
+            "id": 1029575,
+            "cover": "/a6syn9qcU4a54Lmi3JoIr1XvhFU.jpg",
+            "releaseDate": "2023-12-14",
+            "title": "The Family Plan",
+      },
+      {
+            "id": 940551,
+            "cover": "/ldfCF9RhR40mppkzmftxapaHeTo.jpg",
+            "releaseDate": "2023-12-06",
+            "title": "Migration",
+      },
+      {
+            "id": 866398,
+            "cover": "/A7EByudX0eOzlkQ2FIbogzyazm2.jpg",
+            "releaseDate": "2024-01-10",
+            "title": "The Beekeeper",
+      },
+      {
+            "id": 848326,
+            "cover": "/ui4DrH1cKk2vkHshcUcGt2lKxCm.jpg",
+            "releaseDate": "2023-12-15",
+            "title": "Rebel Moon - Part One: A Child of Fire",
+      },
+      {
+            "id": 695721,
+            "cover": "/mBaXZ95R2OxueZhvQbcEWy2DqyO.jpg",
+            "releaseDate": "2023-11-15",
+            "title": "The Hunger Games: The Ballad of Songbirds & Snakes",
+      },
+      {
+            "id": 1022796,
+            "cover": "/AcoVfiv1rrWOmAdpnAMnM56ki19.jpg",
+            "releaseDate": "2023-11-13",
+            "title": "Wish",
+      },
+      {
+            "id": 1211483,
+            "cover": "/uQkiDKQyun13mqsOXv7I5MRKr0q.jpg",
+            "releaseDate": "2023-11-24",
+            "title": "Skal - Fight for Survival",
+      },
+      {
+            "id": 891699,
+            "cover": "/nJCP1ZNTPKlZ7S0Kv3gbmuraAT4.jpg",
+            "releaseDate": "2023-11-30",
+            "title": "Silent Night",
+      },
+      {
+            "id": 572802,
+            "cover": "/7lTnXOy0iNtBAdRP3TZvaKJ77F6.jpg",
+            "releaseDate": "2023-12-20",
+            "title": "Aquaman and the Lost Kingdom",
+      },
+      {
+            "id": 848187,
+            "cover": "/7MhXiTmTl16LwXNPbWCmqxj7UxH.jpg",
+            "releaseDate": "2024-01-04",
+            "title": "Role Play",
+      },
+      {
+            "id": 1139829,
+            "cover": "/N2ddXhBX5kqwA9flbm2yqFtX6b.jpg",
+            "releaseDate": "2024-02-02",
+            "title": "Orion and the Dark",
+      },
+      {
+            "id": 927107,
+            "cover": "/36pYugctLa70NmwMEgXTR1G31Kq.jpg",
+            "releaseDate": "2023-12-14",
+            "title": "The Bricklayer",
+      },
+      {
+            "id": 598387,
+            "cover": "/iiid1xMhoAcW83VJ9LdAqf4Vtbr.jpg",
+            "releaseDate": "2024-02-02",
+            "title": "The Tiger's Apprentice",
+      },
+      {
+            "id": 1211957,
+            "cover": "/UZ0ydgbXtnrq8xZCI5lHVXVcH9.jpg",
+            "releaseDate": "2024-01-05",
+            "title": "The Painter",
+      }
+]

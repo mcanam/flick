@@ -1,0 +1,14 @@
+<div class="container">
+      <header class="header">
+            <h1 class="header-title">FLICK.</h1>
+            <a class="header-link" href="https://github.com/mcanam" target="_blank">
+                  <i-feather name="github"></i-feather>
+            </a>
+      </header>
+
+      <main class="content">
+            <app-search ($search)="onSearch($event)"></app-search>
+            <app-loader *ngIf="isLoading" class="content-loader"></app-loader>
+            <app-discover *ngIf="!isLoading" class="content-discover" [mode]="mode" [data]="data"></app-discover>
+      </main>
+</div>

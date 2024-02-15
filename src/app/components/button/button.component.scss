@@ -1,0 +1,38 @@
+.button {
+      text-decoration: none;
+      color: inherit;
+      padding: 0.675em;
+
+      display: flex;
+      align-items: center;
+      gap: 0.5em;
+
+      background: none;
+      border-radius: 0.5em;
+      transition: 0.2s;
+
+      &-icon {
+            width: 1.2em;
+            height: auto;
+            line-height: 0;
+
+            transform: translateX(1px);
+      }
+
+      &.icon-button {
+            width: 42px;
+            height: 42px;
+            padding: 0;
+
+            border-radius: 5rem;
+            justify-content: center;
+      }
+
+      &:hover {
+            background-color: hsla(0, 0%, 100%, 0.1);
+      }
+
+      &:active {
+            transform: scale(0.95);
+      }
+}

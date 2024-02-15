@@ -1,0 +1,50 @@
+.card {
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      cursor: pointer;
+      transition: 0.2s;
+
+      &:hover {
+            transform: scale(0.95);
+      }
+
+      &-cover {
+            width: 100%;
+            height: 425px;
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: hsl(200, 20%, 20%);
+
+            &-image {
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+            }
+      }
+
+      &-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+      }
+
+      &-release {
+            font-size: 0.9rem;
+            color: hsl(200, 20%, 50%);
+      }
+}
+
+@media screen and (max-width: 720px) {
+      .card {
+            width: 140px;
+
+            &-cover {
+                  height: 200px;
+            }
+
+            &-title {
+                  font-size: 1rem;
+            }
+      }
+}

@@ -1,0 +1,17 @@
+<div class="container">
+      <div class="header">
+            <i-feather [name]="mode == 'discover' ? 'compass' : 'search'"></i-feather>
+            {{ mode == 'discover' ? 'Discover' : 'Search Result' }}
+      </div>
+
+      <div class="content">
+            <div *ngIf="!data.length" class="content-not-found">
+                  <i-feather name="film"></i-feather>
+                  No movie found...
+            </div>
+
+            <ng-container *ngIf="data.length">
+                  <app-card *ngFor="let item of data" [data]="item"></app-card>
+            </ng-container>
+      </div>
+</div>
